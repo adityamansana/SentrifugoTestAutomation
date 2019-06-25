@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.sfg.qa.testcases.LoginPageTest"/>
+      <class name="com.sfg.qa.testcases.DashboardPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
