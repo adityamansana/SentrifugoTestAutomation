@@ -12,10 +12,6 @@ import com.sfg.qa.base.testBase;
 
 public class testUtil extends testBase{
 	
-	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 20;
-	
-	
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
@@ -37,5 +33,9 @@ public class testUtil extends testBase{
 		driver.findElement(by).clear();
 	}
 	
+	/*
+	 * will write more codes for select combo box & radio button, changing frame, drag& drop, hover on dropdown,
+	 * file upload & download, read & write to excel here in future. 
+	 * */
 	
 }
