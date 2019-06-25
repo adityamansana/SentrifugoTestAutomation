@@ -1,4 +1,4 @@
-package SentrifugoAutomationProject.SentrifugoAutomation;
+package com.sfg.qa.base;
 
 /**
  * Hello world!
